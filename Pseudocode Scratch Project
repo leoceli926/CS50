@@ -1,0 +1,59 @@
+When the green flag is clicked
+      switch backdrop to backdrop 1
+      show the variable timer
+      set timer to 0
+      
+When the green flag is clicked 
+       forever
+           if the panther touches the cat 
+                switch the backdrop to backdrop 2 
+       
+When the backdrop switches to backdrop 2 
+      hide panther sprite
+      
+When the backdrop swithces to backdrop 2 
+      hide the variable timer
+      
+When the green flag is clickde
+      forever
+            wait 1 second
+            change the timer by 1 
+            
+When the green flag is clicked 
+      set panthers position to x:0 , y:0
+      
+When the green flag is clicked
+      show panther sprite
+      
+When the green flag is clicked 
+      set the steps to half a step
+      forever
+            have panther points towards the cat
+            every 10 or 15 seconds, move panther .05 steps more towards the cat. 
+            
+When the green flag is clicked
+      set the cats position to x:200 , y:150
+      
+When the backdrop switches to backdrop 1 
+      show the sprite cat
+      
+When the backdrop switches to backdrop 2 
+      hide the sprite cat
+      
+When the green flag is clicked
+      forever
+            wait 0.025 seconds and continously switch to the next costume. 
+            
+When the green flag is clicked 
+      forever
+            if the up arrow is clikced 
+                  move 10 steps up
+            if the down arrow is clicked
+                  move 10 steps down
+            if the right arrow is clicked 
+                  move 10 steps to the right
+            if the left arrow is clicked 
+                  move 10 steps to the left
+            
+            
+            
